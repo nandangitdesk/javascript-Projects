@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular', sans-serif;
+                                                
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #1a1a1a;
+    background-image: url(counte-bg-white.png);
+   
+    position: relative;
+}
+.logo{
+    height: 20vh;
+    width: 100%;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.logo h1{
+    font-size: 3vw;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#bda5fb, #cdff8c);
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent ;
+}
+.main-container{
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    background-color:#1e1e1e;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.insideCounter h1{
+    font-size: 8rem;
+    font-weight: 900;
+    color: #f8f8ff;
+    scale: 0.6;
+}
+.counter-btns{
+    margin-bottom: 10%;
+    
+
+}
+.decresebtn{
+  padding: 2vw 3.5vw;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-color: #cdff8c;
+  color: #1f1d1f;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.decresebtn:hover{
+    box-shadow: rgba(208, 204, 204, 0.636) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;  
+}
+.resetbtn{
+  padding: 2vw 3.5vw;
+  margin: 0 1vw;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-color: #efefef;
+  color: #1f1d1f;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.resetbt:hover{
+    box-shadow: rgba(208, 204, 204, 0.636) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.incresebtn{
+ padding: 2vw 3.5vw;
+ font-weight: 700;
+  font-size: 1.4rem;
+  background-color: #bda5fb;
+  color: #1f1d1f;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.incresebtn:hover{
+    box-shadow: rgba(208, 204, 204, 0.636) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; 
+}
+
+@media (max-width:500px){
+    .logo h1{
+        font-size: 15vw;
+    }
+    .main-container{
+        left: 9%;
+        width: 80%;
+    }
+    .insideCounter{
+        font-size: 4rem;
+    }
+    .counter-btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px
+    }
+    .decresebtn{
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 1.8vw 3vw;
+    }
+    .resetbtn{
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 1.8vw 3vw;
+    }
+    .incresebtn{
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 1.8vw 3vw;
+    }
+}
