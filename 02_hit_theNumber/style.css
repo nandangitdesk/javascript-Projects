@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color:#CEB5B7;
+    flex-direction: column;
+
+}
+.main h1{
+    color: #fbfbfb;
+    background-color: #FF7477;
+    margin-bottom: 2vw;
+    width: 60%;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
+.panel{
+    overflow: hidden;
+    height: 80%;
+    width: 85%;
+    background-color: #fbfbfb;
+    border-radius: 12px;
+}
+.panelTop{
+    height: 5vw;
+    width: 100%;
+    background-color: #FF7477;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30%;
+}
+.elem{
+    display: flex;
+    align-items: center;
+   gap: 1.2vw;
+}
+.elem h3{
+    color: #fbfbfb;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.box{
+    padding: 0.7vw 0.7vw;
+    border-radius: 6px;
+    background-color: #fbfbfb;
+    color: #FF7477;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.panelBtn{
+    height: calc(100% - 5vw);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0.5rem;
+}
+.bubble{
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#E69597;
+    color: #fbfbfb;
+}
+.bubble:hover{
+    background-color: #ff5d5f;
+}
+
+@media (max-width:500px){
+    
+    .panelTop{
+        height: 15vw;
+        padding: 0 20%;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+    }
+    .elem{
+        gap: 2vw;
+    }
+    .elem h3{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .box{
+        padding: 2vw 2vw;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .bubble{
+        height: 10vw;
+        width: 10vw;
+    }
+    .panel{
+        height: 82%;
+        width: 85%;
+    }
+    .main h1{
+        font-size: 1.2rem;
+        width: 80%;
+    }
+   
+   
+}
