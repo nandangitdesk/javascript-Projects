@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-let's do it now</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <h1>My Todo List</h1>
+    <div id="container">
+        <div class="input-container">
+            <input type="text" class="input-task" placeholder="Add your task">
+            <button class="add-btn">Add</button>
+        </div>
+        <div id="Tasks">
+            <p class="pendingTask">You have <span class="taskCount"> 0 </span> task(s) to complete.</p>
+        </div>
+       
+        
+    </div>
+    <div class="err-msg">Your input is empty please add your task</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
