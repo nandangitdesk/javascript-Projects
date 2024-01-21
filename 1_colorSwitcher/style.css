@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+ 
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.buttons {
+    height: 10rem;
+    width: 10rem;
+    
+
+}
+#colorBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#slategrey{
+    background-color: slategrey;
+    margin: 0 4rem;
+   
+}
+
+ #seagreen{
+    background-color: seagreen;
+}
+
+ #steelblue{
+    background-color: steelblue;
+    margin: 0 4rem;
+}
+#slateblue{
+    background-color: slateblue;
+}
+
+#salmon{
+    background-color: salmon;
+    margin: 0 4rem;
+}
+h1{
+    font-size: 10rem;
+    font-weight: 900;
+    margin: 9vh 2vh;
+}
+h3{
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 7vh 2vh;
+}
