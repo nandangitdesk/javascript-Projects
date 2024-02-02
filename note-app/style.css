@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne', sans-serif;
+}
+html,body{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(108,146,219);
+    background: linear-gradient(180deg, rgba(108,146,219,1) 0%, rgba(237,216,233,1) 100%);
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 10vw;
+    font-weight: 500;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.912) 0%, rgba(255, 255, 255, 0.364) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+ 
+}
+.navbar{
+    height: 3vw;
+    width: 80%;
+    background-color:#5978B9 ;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%,0);
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+.logo{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    font-size: 1vw;
+    padding: 0.5vw 1vw;
+    opacity: 1;
+    
+    
+}
+h2{ 
+    font-size: 1vw;
+    color:#22366b9f ;
+    z-index: -111;
+}
+.searchbar input{
+    padding: 0.5vw 1vw;
+    border: none;
+    outline: #8ba0da;
+    border-radius: 100px;
+    text-align:justify;
+    color: #5978B9;
+}
+nav i{
+    color: #fff;
+    display: none;
+}
+.noteContainer{
+    /* background-color: red; */
+    width: 100%;
+   
+    position: absolute;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vw;
+
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-note-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 2vw 3vw;
+    background-color: #ffffff;
+    gap: 1vw;
+    border-radius: 23px;
+}
+.add-note-btn{
+    padding: 0.75vw 1.5vw;
+    background-color: #22356B;
+    color: #fff;
+    border: none;
+
+    
+    cursor: pointer;
+    border-radius: 100px;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    
+}
+.add-note-btn i{
+    font-size: 1.6vw;
+}
+.add-note-btn:hover{
+    background-color: #304787;
+}
+.add-new-note-btn:hover{
+    background-color: #304787;
+}
+.add-new-note-btn{
+    padding: 0.75vw 1.5vw;
+    background-color: #22356B;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.note-title{
+    width: 100%;
+    padding: 1vw 2vw;
+    text-align: center;
+    
+    background-color: transparent;
+  
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-note-container input{
+    border: 1px solid #22366b83;
+    outline:none;
+    font-size: 1vw;
+    color: #22356B;
+    border-radius: 10px;
+    background-color: #ffffffac;
+    outline: #22356B;
+}
+.input-note-container textarea{
+    border: 1px solid #22366b83 ;
+    padding: 2vw 4vw;
+    font-size: 1vw;
+    color: #22356B;
+    background-color: #ffffffac;
+    border-radius: 10px;
+    outline: #22356B;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 22vw;
+    
+    background-color: #fff;
+    border: none;
+    padding: 1.5vw 3vw;
+    border-radius: 10px;
+    margin: 2vw;
+}
+.card h4{
+    font-size: 2vw;
+    color: #22356B;
+    margin-bottom: 1vw;
+}
+.card p{
+    font-size: 1vw;
+    color: #22366bb4;
+   
+    line-height: 1;
+}
+#edit-btn{
+    
+    color:#22356B;
+    font-size: 1.6vw;
+    padding: 0.6vw 0.6vw;
+    border-radius: 10px;
+    border: none;
+}
+#delete-btn{
+    border: none;
+    color: #fff;
+    background-color: #22356B;
+    font-size: 1vw;
+    padding: 0.6vw 0.6vw;
+    border-radius: 10px;
+}
+.card-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.6vw;
+    margin-top: 1vw;
+}
