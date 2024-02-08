@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Meter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Affection Meter</h1>
+        <span>Have you found the one?</span>
+        <svg viewBox="-10 0 600 512" width="100" title="heart">
+          <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+        </svg>
+      </header>
+      <main>
+        <form class="love-calculator">
+          <label for="you">Your name:</label>
+          <input id="you" type="text" placeholder="Your name..." required />
+          <label for="lover">Your crush's name:</label>
+          <input id="lover" type="text" placeholder="Your crush's name..." required />
+          <input id="calc" type="submit" value="Calculate" />
+        </form>
+      
+        <div class="results hidden" id="scorecard">
+          <h2>Scorecard</h2>
+        </div>
+      </main>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
