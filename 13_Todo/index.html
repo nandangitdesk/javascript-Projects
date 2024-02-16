@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Your TODO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="main">
+        <h1>Manage Your TooDoo-List</h1>
+        <div class="container">
+             <div class="wrapper">
+                <input class="inputTask"  type="text" placeholder="Enter Your Task">
+                <button class="addTask">Add</button>
+             </div>
+             <div id="Tasks">
+                <p class="pendingTask">You have <span class="taskCount"> 0 </span> task(s) to complete.</p>
+             </div>
+             
+        </div>
+        <div class="errorMsg">
+            <p>please fill the task input,its empty.</p>
+        </div>
+    </div>
+
+   
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
